@@ -23,6 +23,11 @@
   width: 100%;
 }
 
+.second-img{
+  width: 100%;
+  display: none;
+}
+
 .heart{
   width: 40px;
   position: absolute;
@@ -32,6 +37,7 @@
   background-color: white;
   padding: 10px;
   text-align: center;
+  z-index: 100;
 }
 
 .sale, .sustainability, .last-sustainability{
@@ -40,6 +46,7 @@
   font-size: 15px;
   padding: 2px;
   font-weight: 600;
+  z-index: 100;
 }
 
 .sale{
@@ -79,6 +86,28 @@
   font-weight: 400;
   text-decoration: line-through;
 }
+
+.box-img:hover .first-img{
+  display: none;
+}
+
+.box-img:hover .second-img{
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
